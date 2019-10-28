@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body {
+font-family: 'Roboto', sans-serif;
+color: #454749;
+}
+
+h2 {
+    color: #1393f6;
+    font-size: 24px;
+    text-align: center;
+}
+p{
+  font-size: 15px;
+  text-align: center;
+  border-bottom: 2px solid rgba(19,147,246,.2);
+  padding-bottom: 15px;
+}
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: solid 1px #d4d4d4;
+}
+select {
+  background-color: #f8f8f8;
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  background-color: #e8eeef;
+  color:#454749;
+  margin-bottom: 30px;
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+input[type="radio"],
+input[type="checkbox"], {
+  margin-bottom:20px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #534bc9;
+  font-size: 18px;
+  text-align: center; 
+  border-radius: 5px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.check {
+
+  display: inline;
+  line-height: 24px;
+}
+label.title_question{
+    font-size: 20px;
+    margin: 17px 25px 10px 0px;
+}
+
+.question2,.question3, .question4,.question5{
+    margin-top:2px;
+}
+
+@media screen and (min-width: 480px) {
+  form {
+    max-width: 480px;
+  }
+
+}
+  
